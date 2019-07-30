@@ -31,7 +31,7 @@ You only need to import and initialize your app
 Health Check
 ------------
 
-es.cluster.health(wait_for_status='yellow', request_timeout=1)
+    es.cluster.health(wait_for_status='yellow', request_timeout=1)
 
 Storage
 ------------
